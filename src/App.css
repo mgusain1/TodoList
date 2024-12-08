@@ -1,0 +1,91 @@
+/* General styling */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styling */
+  .task-input {
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .task-input button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-input button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Task list styling */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .task-list li span {
+    font-size: 16px;
+  }
+  
+  .task-list li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list li button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Clear All button */
+  .clear-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-btn:hover {
+    background-color: #e68900;
+  }
+  
